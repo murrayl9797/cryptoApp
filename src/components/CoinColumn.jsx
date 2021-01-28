@@ -1,5 +1,5 @@
 import React from 'react';
-import CoinRow from './CoinRow.jsx';
+import SingleCoin from './SingleCoin.jsx';
 
 const CoinColumn = ( { data } ) => {
 
@@ -13,7 +13,7 @@ const CoinColumn = ( { data } ) => {
       </div>
 
       {data.slice(0,2).map((coinObj, ind) => {
-        return <CoinRow key={ind} coinObj={coinObj}/>;
+        return <SingleCoin key={ind} coinObj={coinObj}/>;
       })}
 
       <div>

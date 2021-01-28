@@ -1,14 +1,15 @@
 import React from 'react';
 
 
-const CoinRow = ( { coinObj } ) => {
+const SingleCoin = ( { coinObj } ) => {
+
   /*********************************************/
   /****** Pull out vars and init formatter *****/
   /*********************************************/
   const coinName = coinObj.name;
   const currPrice = coinObj.quote.USD.price;
-  //const change = coinObj.quote.USD.percent_change_24h / 100 ;
-  const change = 0.1 ;
+  // const change = -0.1 ; test if you'd like to certain font
+  const change = coinObj.quote.USD.percent_change_24h / 100 ;
   const imagePath = `../../public/images/${coinName}Logo.png`;
 
   const formatter = new Intl.NumberFormat('en-US', {
@@ -22,11 +23,16 @@ const CoinRow = ( { coinObj } ) => {
   /*********************************************/
   return (
     <div className="coin-square">
-      <div>
+      {/********* Coin Image ************/}
+      <div className="image-div">
         <img
           src={imagePath}
         />
       </div>
+
+      <br/>
+      <br/>
+
 
       <div className="text-info">
         {/********* Coin Name ************/}
@@ -65,4 +71,4 @@ const CoinRow = ( { coinObj } ) => {
   )
 };
 
-export default CoinRow;
+export default SingleCoin;

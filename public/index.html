@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"/>
   <title>Angle Crypto App</title>
   <style>
-    /* Header Formatting */
+    /* Kept Styling here because Webpack was finicky with CSS Loader */
+
+    /* Headers Formatting */
     body {
       text-align: center;
-      align-content: center;
       padding: 20px;
       background-color: lightgray;
     }
@@ -40,9 +41,32 @@
       padding: 50px;
       margin: 20px;
       border-radius: 15%;
+      text-align: left;
+      font-size: 20px;
     }
 
+    .generic-text {
+      padding: 10px;
+      color: black;
+    }
+
+    .coin-info {
+      color: blue;
+    }
+
+    .negative-change {
+      color: red;
+    }
+
+    .positive-change {
+      color: rgb(45, 196, 45);
+    }
+
+    /* Image Formatting */
     img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       height: 100px;
       width: auto;
     }
