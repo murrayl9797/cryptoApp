@@ -1,0 +1,121 @@
+{
+    "status": {
+        "timestamp": "2021-01-27T21:15:00.972Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 18,
+        "credit_count": 1,
+        "notice": null,
+        "total_count": 3971
+    },
+    "data": [
+        {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "num_market_pairs": 9321,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": [
+                "mineable",
+                "pow",
+                "sha-256",
+                "store-of-value",
+                "state-channels",
+                "coinbase-ventures-portfolio",
+                "three-arrows-capital-portfolio",
+                "polychain-capital-portfolio"
+            ],
+            "max_supply": 21000000,
+            "circulating_supply": 18612150,
+            "total_supply": 18612150,
+            "platform": null,
+            "cmc_rank": 1,
+            "last_updated": "2021-01-27T21:13:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 31277.580125770575,
+                    "volume_24h": 61207830632.14222,
+                    "percent_change_1h": 2.50950748,
+                    "percent_change_24h": -3.4483274,
+                    "percent_change_7d": -10.86862835,
+                    "percent_change_30d": 15.95129199,
+                    "market_cap": 582143012937.8608,
+                    "last_updated": "2021-01-27T21:13:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 1027,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "num_market_pairs": 5666,
+            "date_added": "2015-08-07T00:00:00.000Z",
+            "tags": [
+                "mineable",
+                "pow",
+                "smart-contracts",
+                "coinbase-ventures-portfolio",
+                "three-arrows-capital-portfolio",
+                "polychain-capital-portfolio"
+            ],
+            "max_supply": null,
+            "circulating_supply": 114428216.1865,
+            "total_supply": 114428216.1865,
+            "platform": null,
+            "cmc_rank": 2,
+            "last_updated": "2021-01-27T21:13:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1282.3324276806904,
+                    "volume_24h": 38838064533.79509,
+                    "percent_change_1h": 1.7576759,
+                    "percent_change_24h": -5.61915956,
+                    "percent_change_7d": -4.47749366,
+                    "percent_change_30d": 72.54283965,
+                    "market_cap": 146735012257.6054,
+                    "last_updated": "2021-01-27T21:13:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 825,
+            "name": "Tether",
+            "symbol": "USDT",
+            "slug": "tether",
+            "num_market_pairs": 9970,
+            "date_added": "2015-02-25T00:00:00.000Z",
+            "tags": [
+                "store-of-value",
+                "payments",
+                "stablecoin",
+                "stablecoin-asset-backed"
+            ],
+            "max_supply": null,
+            "circulating_supply": 25196886298.285553,
+            "total_supply": 25910299178.627888,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            "cmc_rank": 3,
+            "last_updated": "2021-01-27T21:13:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00163294623766,
+                    "volume_24h": 103228321174.03766,
+                    "percent_change_1h": 0.04234017,
+                    "percent_change_24h": 0.05699079,
+                    "percent_change_7d": 0.11705723,
+                    "percent_change_30d": 0.29516673,
+                    "market_cap": 25238031458.967087,
+                    "last_updated": "2021-01-27T21:13:07.000Z"
+                }
+            }
+        }
+    ]
+}
