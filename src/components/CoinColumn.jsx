@@ -8,9 +8,17 @@ const CoinColumn = ( { data } ) => {
   /*********************************************/
   return (
     <div className="coin-column">
-      {data.slice(0,3).map((coinObj, ind) => {
+      <div>
+        {/* Here for styling */}
+      </div>
+
+      {data.slice(0,2).map((coinObj, ind) => {
         return <CoinRow key={ind} coinObj={coinObj}/>;
       })}
+
+      <div>
+        {/* Here for styling */}
+      </div>
     </div>
   )
 };

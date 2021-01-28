@@ -22,13 +22,16 @@ const App = () => {
         Welcome to Liam's Crypto App!
       </h1>
 
-      <h3>
-        Reloaded at: {updatedTime} GMT
-      </h3>
+      <br/>
+      <br/>
 
       <CoinColumn
         data={cryptoData}
-      />
+        />
+
+      <h3>
+        Reloaded at: {updatedTime} GMT
+      </h3>
 
     </div>
   );
