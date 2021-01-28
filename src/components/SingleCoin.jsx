@@ -8,7 +8,7 @@ const SingleCoin = ( { coinObj } ) => {
   /*********************************************/
   const coinName = coinObj.name;
   const currPrice = coinObj.quote.USD.price;
-  // const change = -0.1 ; test if you'd like to certain font
+  //const change = -1; use this if you'd like a certain font (red/green)
   const change = coinObj.quote.USD.percent_change_24h / 100 ;
   const imagePath = `../../public/images/${coinName}Logo.png`;
 
