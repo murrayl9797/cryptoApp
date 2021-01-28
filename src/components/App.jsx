@@ -25,7 +25,7 @@ const App = () => {
       url: 'http://localhost:4444/apikey'
     })
     .then(resp => {
-      // Successful API request
+      /******** Successful API request ************/
       console.log(`Response received from Express (Coin API)!`);
 
       // Update Data
@@ -35,7 +35,7 @@ const App = () => {
       changeUpdatedTime(resp.data.status.timestamp.slice(11, 19));
     })
     .catch(err => {
-      // Error in API request
+      /******** Error in API request **************/
       console.log(`404 Received from Express (error in hitting API)`);
 
       // Use example data
@@ -63,6 +63,7 @@ const App = () => {
 
     }, 60000 * RELOAD_INTERVAL_MINUTES);
     return () => clearInterval(interval);
+
   }, []);
 
   /*********************************************/
