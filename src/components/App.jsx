@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import exampledata from '../example-request.json';
-import CoinColumn from './CoinColumn.jsx';
+import CoinTable from './CoinTable.jsx';
 import axios from 'axios';
 
 const RELOAD_INTERVAL_MINUTES = 1;
@@ -79,7 +79,7 @@ const App = () => {
       <br/>
       <br/>
 
-      <CoinColumn
+      <CoinTable
         data={cryptoData}
       />
 

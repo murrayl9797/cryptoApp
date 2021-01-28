@@ -1,7 +1,7 @@
 import React from 'react';
 import SingleCoin from './SingleCoin.jsx';
 
-const CoinColumn = ( { data } ) => {
+const CoinTable = ( { data } ) => {
 
   /*********************************************/
   /************ Render to DOM ******************/
@@ -23,4 +23,4 @@ const CoinColumn = ( { data } ) => {
   )
 };
 
-export default CoinColumn;
+export default CoinTable;
